@@ -232,6 +232,8 @@ namespace cowsins2D
             set => playerMovementEvents = value;
         }
 
+
+
         public delegate void OrientatePlayer();
         public OrientatePlayer orientatePlayer;
 
@@ -330,6 +332,23 @@ namespace cowsins2D
         private Vector2 colliderSize;
         ContactFilter2D filteredWhatIsGround = new ContactFilter2D();
 
+        #endregion
+
+        #region POWERUP FUNCTIONS
+        public void ChangeJumpAmount(int amount) { amountOfJumps = amount; }
+
+        public void SetWallJumpPerm(bool canWallJump) { allowWallJump = canWallJump; }
+
+        public void SetDashMode(DashMethod dashMode) { dashMethod = dashMode; }
+
+        public void SetDashNum(int dashNum)
+        {
+            amountOfDashes = dashNum;
+            for (int i = 0; i < amountOfDashes; i++)
+            {
+                CoolDash();
+            }
+        }
         #endregion
 
         #region INPUT PARAMETERS
