@@ -10625,6 +10625,14 @@ PrefabInstance:
       propertyPath: alwaysFollow
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4048626670026927408, guid: 75dc9718c3f05ae40b4e8ecf3f5b8e36, type: 3}
+      propertyPath: maxHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4048626670026927408, guid: 75dc9718c3f05ae40b4e8ecf3f5b8e36, type: 3}
+      propertyPath: maxShield
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6487633993417627610, guid: 75dc9718c3f05ae40b4e8ecf3f5b8e36, type: 3}
       propertyPath: m_Name
       value: FlyingFollowEnemy
@@ -10738,6 +10746,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1299495530}
     m_Modifications:
+    - target: {fileID: 277718684210404587, guid: 32f9d9820bfa28c4b871733cf7d2e195, type: 3}
+      propertyPath: maxHealth
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 277718684210404587, guid: 32f9d9820bfa28c4b871733cf7d2e195, type: 3}
+      propertyPath: maxShield
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2042961475714207970, guid: 32f9d9820bfa28c4b871733cf7d2e195, type: 3}
       propertyPath: m_LocalPosition.x
       value: 118.5
@@ -10781,6 +10797,10 @@ PrefabInstance:
     - target: {fileID: 2851400061739347049, guid: 32f9d9820bfa28c4b871733cf7d2e195, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 6237298529954515177, guid: 32f9d9820bfa28c4b871733cf7d2e195, type: 3}
+      propertyPath: damage
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7922444134821295340, guid: 32f9d9820bfa28c4b871733cf7d2e195, type: 3}
       propertyPath: m_Name
