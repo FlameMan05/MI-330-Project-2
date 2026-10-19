@@ -10,8 +10,7 @@ namespace cowsins2D
 
         public override void TriggerAction(GameObject target)
         {
-            PlayerMultipliers playerMultipliers =
-                target.GetComponent<PlayerMultipliers>();
+            PlayerMultipliers playerMultipliers = target.GetComponent<PlayerMultipliers>();
 
             if (playerMultipliers == null) return;
 
