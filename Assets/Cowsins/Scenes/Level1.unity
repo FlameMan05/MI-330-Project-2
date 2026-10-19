@@ -9485,7 +9485,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc13214b2e9011f4fb76be5919cf0aef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 4.05
+  distance: 4.15
   leftTime: 3
   idleTimeLeft: 3
   rightTime: 0.3
@@ -270347,7 +270347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dc13214b2e9011f4fb76be5919cf0aef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 4.05
+  distance: 4.15
   leftTime: 3
   idleTimeLeft: 3
   rightTime: 0.3
